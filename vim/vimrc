@@ -1,0 +1,36 @@
+set nocompatible
+filetype off
+
+source ~/.vim/config/plugins.vim
+source ~/.vim/config/maps.vim
+source ~/.vim/config/pretty.vim
+source ~/.vim/config/syntax.vim
+source ~/.vim/config/splits.vim
+source ~/.vim/config/buffers.vim
+source ~/.vim/config/cli.vim
+source ~/.vim/config/autocomplete.vim
+source ~/.vim/config/fzf.vim
+source ~/.vim/config/lightline.vim
+source ~/.vim/config/clipboard.vim
+source ~/.vim/config/python.vim
+source ~/.vim/config/neovim.vim
+source ~/.vim/config/git.vim
+source ~/.vim/config/performance.vim
+source ~/.vim/config/testing.vim
+source ~/.vim/config/tabular.vim
+source ~/.vim/config/search.vim
+source ~/.vim/config/nerdtree.vim
+source ~/.vim/config/ctrlp.vim
+source ~/.vim/config/motion.vim
+source ~/.vim/config/functions.vim
+source ~/.vim/config/set.vim
+source ~/.vim/config/auto.vim
+source ~/.vim/config/folds.vim
+source ~/.vim/config/markdown.vim
+source ~/.vim/config/rails.vim
+source ~/.vim/config/tags.vim
+runtime! macros/matchit.vim
+
+filetype plugin indent on
+syntax on
+syntax enable

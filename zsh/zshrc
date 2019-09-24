@@ -1,0 +1,23 @@
+#zmodload zsh/zprof # startup time
+
+[ -r ~/.zsh/env.zsh ] && source ~/.zsh/env.zsh
+[ -r ~/.zsh/ansible.zsh ] && source ~/.zsh/ansible.zsh
+[ -r ~/.zsh/path.zsh ] && source ~/.zsh/path.zsh
+[ -r ~/.zsh/plugins.zsh ] && source ~/.zsh/plugins.zsh
+[ -r ~/.zsh/fzf.zsh ] && source ~/.zsh/fzf.zsh
+[ -r ~/.zsh/functions.zsh ] && source ~/.zsh/functions.zsh
+[ -r ~/.zsh/rbenv.zsh ] && source ~/.zsh/rbenv.zsh
+[ -r ~/.zsh/ssh.zsh ] && source ~/.zsh/ssh.zsh
+[ -r ~/.zsh/alias.zsh ] && source ~/.zsh/alias.zsh
+[ -r ~/.zsh/iterm.zsh ] && source ~/.zsh/iterm.zsh
+[ -r ~/.zsh/tmux.zsh ] && source ~/.zsh/tmux.zsh
+[ -r ~/.zsh/settings.zsh ] && source ~/.zsh/settings.zsh
+[ -r ~/.zsh/rails.zsh ] && source ~/.zsh/rails.zsh
+[ -r ~/.zsh/bundler.zsh ] && source ~/.zsh/bundler.zsh
+[ -r ~/.zsh/git.zsh ] && source ~/.zsh/git.zsh
+#zprof # startup time
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
