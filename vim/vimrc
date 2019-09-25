@@ -26,7 +26,6 @@ source ~/.vim/config/functions.vim
 source ~/.vim/config/set.vim
 source ~/.vim/config/auto.vim
 source ~/.vim/config/folds.vim
-source ~/.vim/config/markdown.vim
 source ~/.vim/config/rails.vim
 source ~/.vim/config/tags.vim
 runtime! macros/matchit.vim

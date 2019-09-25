@@ -1,6 +1,4 @@
-#alias diff='vimdiff'
 alias ripgrep='command rg'
-alias rmds="find . -name '*.DS_Store' -type f -delete"
 
 ls_hidden() # ls only hidden files
 {
@@ -27,11 +25,7 @@ alias less='less -r' # handle escape sequences
 alias vimc='vim ~/.vimrc'
 alias zshc='vim ~/.zshrc'
 
-alias finder='open -a Finder ./' # open Finder in current terminal directory
-
 alias lynx='lynx -nocolor'
-
-alias canary-extensions-disabled='open "/Applications/Google Chrome Canary.app" --args --disable-extensions --safe-plugins'
 
 alias s='sudo'
 
@@ -46,11 +40,6 @@ alias cpwd='pwd|tr -d "\n"|pbcopy'
 # todos in directory
 alias todos='ack --nobreak --nocolor "(TODO|FIXME):"|sed -E "s/(.*:[[:digit:]]+):.*((TODO|FIXME):.*)/\2 :>> \1/"|grep -E --color=always ":>>.*:\d+"'
 
-# quick look file
-alias ql="qlmanage -px &>/dev/null"
-
 alias diskspace="du -S | sort -n -r | less"
-
-alias cleandocker='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
 alias v='vim'

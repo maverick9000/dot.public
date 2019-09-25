@@ -1,5 +1,5 @@
 #auto ssh-add
-zstyle :omz:plugins:ssh-agent agent-forwarding on 
+zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 #autocomplete ssh hosts
 if [[ -a ~/.ssh/config ]] then
@@ -11,6 +11,3 @@ if [[ -a ~/.ssh/config ]] then
   complete -W "$(_ssh_completion)" ping
   unsetopt auto_name_dirs
 fi
-
-# add ssh keys
-# ssh-add -K 2>/dev/null
