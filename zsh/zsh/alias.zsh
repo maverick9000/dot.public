@@ -35,8 +35,6 @@ alias canary-extensions-disabled='open "/Applications/Google Chrome Canary.app" 
 
 alias s='sudo'
 
-alias vim='vim'
-
 alias cpu='top -o cpu'
 alias mem='top -o rsize'
 
@@ -55,5 +53,4 @@ alias diskspace="du -S | sort -n -r | less"
 
 alias cleandocker='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
-alias nv='nvim'
 alias v='vim'
