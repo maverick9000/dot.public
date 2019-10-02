@@ -42,4 +42,4 @@ alias todos='ack --nobreak --nocolor "(TODO|FIXME):"|sed -E "s/(.*:[[:digit:]]+)
 
 alias diskspace="du -S | sort -n -r | less"
 
-alias v='vim'
+alias v='nvim'
