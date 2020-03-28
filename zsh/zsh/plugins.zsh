@@ -19,11 +19,11 @@ zplug "rupa/z", use:z.sh
 
 [ -r ~/.zsh/theme.zsh ] && source ~/.zsh/theme.zsh
 
-#if ! zplug check --verbose; then
-#  printf "Install? [y/N]: "
-#  if read -q; then
-#    echo; zplug install
-#  fi
-#fi
+if ! zplug check --verbose; then
+  printf "Install? [y/N]: "
+  if read -q; then
+    echo; zplug install
+  fi
+fi
 
 zplug load
