@@ -8,7 +8,7 @@ let g:NERDTreeCopyCmd='cp -r'
 
 
 " git
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "*",
     \ "Staged"    : "S",
     \ "Untracked" : "+",
